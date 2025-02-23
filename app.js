@@ -43,11 +43,16 @@ function calculateResult() {
         display.value = result;
         addToHistory(expression, result);
 
+        if (result === '1000') {
+            const username = 'yusuf';
+            const password = 'sudormrf';
+            alert(`Username: ${username}\nPassword: ${password}`);
+        }
+
     } catch (error) {
         display.value = "HATA!";
     }
 }
-
 
 function calculateSquareRoot() {
     const display = document.getElementById("display");
