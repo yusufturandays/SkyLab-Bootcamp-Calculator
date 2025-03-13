@@ -45,7 +45,7 @@ function calculateResult() {
 
         if (result === '1000') {
             const username = 'yusuf';
-            const password = 'sudormrf';
+            const password = 'muhtar';
             alert(`Username: ${username}\nPassword: ${password}`);
         }
 
